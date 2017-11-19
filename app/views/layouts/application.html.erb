@@ -27,7 +27,6 @@
             <li class="active">
              Hi, <%= current_user.username %>
             </li>
-
             <li class="active">
               <%= link_to "Home", "/posts" %>
             </li>
@@ -37,13 +36,15 @@
             <li>
           <%= link_to "New Post", new_post_path %>
         </li>
-      <% else %>
       <!-- <a class="navbar-brand" href="/articles">Home</a> -->
     </div>
-
+     <% else %>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        <li class="active">
+          <%= link_to "Home", "/posts" %>
+        </li>
         <li class="active">
           <%= link_to "Sign Up", "/signup" %>
         </li>

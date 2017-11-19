@@ -8,8 +8,10 @@
 </div>
 
 <div id="comments">
-  <h3><%= @post.comments.count %> Comments</h3>
+  <div class="container">
+    <h3><%= @post.comments.count %> Comments</h3>
   <%= render @post.comments %>
   <h4>Add a comment:</h4>
   <%= render "comments/form" %>
+</div>
 </div>
