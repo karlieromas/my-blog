@@ -7,3 +7,8 @@ class AddPosts < ActiveRecord::Migration[5.1]
     end
   end
 end
+
+
+# schema_migrations
+# version
+# 20171119135659

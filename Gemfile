@@ -20,6 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'pry'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use CoffeeScript for .coffee assets and views
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
