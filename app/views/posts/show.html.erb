@@ -1,4 +1,11 @@
 <div class="container">
+
   <h2><%= @post.title %></h2>
   <p><%= @post.body %></p>
+
+  <%= link_to "Edit", edit_post_path(@post), class: "btn btn-primary" %>
+  <%= link_to "Delete", post_path, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
 </div>
+
+# create users table
+# create a migration to add a user_id to the posts table
